@@ -645,6 +645,12 @@ footer a {
 		transform: scale(1);
 		transition: none;
 	}
+	.containerIT{
+		display:grid;
+		grid-template-columns:repeat(1,1fr);
+		justify-items: center;
+		justify-self:center;
+	}
 }
 
 @media screen and (max-width: 600px) {
