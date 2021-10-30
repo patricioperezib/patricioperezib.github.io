@@ -1,0 +1,34 @@
+:root {
+	--main-clr: #001744;
+	--secondary-clr: #054cda;
+
+	--main-txt: #fff;
+	--secondary-txt: #fff;
+
+	--accent1: #009cd0;
+	--accent2: #279af1;
+
+	--link-decoration: var(--main-clr);
+	--button-color: var(--accent1);
+}
+
+a {
+	color: var(--secondary-txt);
+}
+
+#greeting-wrapper > p {
+	color: var(--main-clr);
+}
+
+.button,
+#submit-btn {
+	color: var(--main-txt);
+}
+
+footer,
+footer a {
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Roboto Monospace', monospace;
+	text-align: center;
+}
