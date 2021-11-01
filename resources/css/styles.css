@@ -317,7 +317,7 @@ nav {
 	font-size: 18px;
 	line-height: 30px;
 	color:white;
-	  text-align:center;
+	text-align:center;
   }
 
   .timeline-content h2 {
@@ -331,11 +331,11 @@ nav {
 	line-height: 30px;
 	font-weight: 300;
 	color:white;
-	  text-align:center;
+	text-align:center;
   }
   .timeline-content .date {
 	font-family: 'Roboto';
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: 2px;
 	color:black;
