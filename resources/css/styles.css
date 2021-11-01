@@ -673,7 +673,7 @@ footer a {
 
 	#hero {
 		justify-self: center;
-		border-radius:10%;
+		border-top-radius:10%;
 	}
 
 	#greeting-wrapper > p {
