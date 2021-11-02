@@ -270,7 +270,102 @@ nav {
  .content h3{
 	color:#950952; 
   }
+/********** my timeline**********/
+#big-container{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
 
+.container-R h3{
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color:black;
+
+}
+
+.container-L h3{
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color:black;
+}
+
+.container-R h2{
+	text-align:left;
+	margin-left:10px;
+}
+
+.container-L h2{
+	text-align:right;
+	margin-right:10px;
+}
+
+.container-L{
+
+	background-color:white;
+	border-radius:15%;
+	width:100%;
+	grid-column-start:1;
+	grid-column-end:1;
+	justify-items: right;
+	text-align:right;
+}
+
+.container-R-dummy{
+	grid-column-start:2;
+	grid-column-end:2;
+	border-left-style:solid;
+	border-color:var(--accent1);
+}
+
+.container-L-dummy{
+	grid-column-start:1;
+	grid-column-end:1;
+	border-right-style:solid;
+	border-color:var(--accent1);
+}
+
+
+.container-R{
+	background-color:white;
+	border-radius:15%;
+	width:100%;
+	grid-column-start:2;
+	grid-column-end:2;
+	justify-items: left;
+	text-align:left;
+}
+
+.hide{
+	display:none;
+	background-color:rgb(167, 36, 127);
+	width:100%;
+	color:white;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.hide h1 {
+	font-size:15px;
+	color:white;
+	text-align:center;
+}
+
+.hide h2 {
+	font-size:18px;
+	color:black;
+	margin-bottom:0px; 
+	text-align:center;
+}
+
+.hide p {
+	font-size:13px;
+	color:white; 
+	text-align:center;
+}
 /********** Timeline  **********/
 
  #experience{
