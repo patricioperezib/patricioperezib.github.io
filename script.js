@@ -14,7 +14,32 @@ navLinks.forEach(link => {
 
 // hiding timeline// 
 
-let joblist = document.getElementById('tl');
+const keydates = ['date-1', 'date-2', 'date-3', 'date-4', 'date-5', 'date-6', 'date-7'];
+let dates = [];
+keydates.forEach(function(keydate){
+  dates.push(document.getElementById(keydate));
+})
+
+const keyjobs = ['hide-1', 'hide-2', 'hide-3', 'hide-4', 'hide-5', 'hide-6', 'hide-7'];
+let jobs = [];
+keyjobs.forEach(function(keyjob){
+  jobs.push(document.getElementById(keyjob));
+})
+
+function showup(index){
+	jobs[index].style.display='block';
+}
+
+function hiden(index){
+	jobs[index].style.display="none";
+}
+//dates.forEach(showup(dates.indexOf('${date}')));
+
+for (let i=0 ; i <= dates.length ; i++ ){
+dates[i].addEventListener("mouseenter", ()=> {showup(i)});
+dates[i].addEventListener("mouseleave", ()=> {hiden(i)});
+}
+;
 
 
 
