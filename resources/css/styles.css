@@ -619,7 +619,7 @@ i {
 	justify-content: center;
 	align-items: start;
 	gap: 30px;
-	grid-template-columns: repeat(auto-fit, 320px);
+	grid-template-columns: repeat(1, 450px);
 }
 
 #project-container img {
