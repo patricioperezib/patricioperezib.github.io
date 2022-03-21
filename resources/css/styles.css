@@ -646,6 +646,7 @@ i {
 .description {
 	background-color: var(--secondary-clr);
 	padding: 5px;
+	width: -webkit-fill-available;
 }
 
 .button {
