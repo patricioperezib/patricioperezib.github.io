@@ -609,7 +609,6 @@ i {
 }
 
 /********** PROJECTS STYLES **********/
-
 #projects {
 	text-align: center;
 }
@@ -619,7 +618,7 @@ i {
 	justify-content: center;
 	align-items: start;
 	gap: 30px;
-	grid-template-columns: repeat(autofill, 320px);
+	grid-template-columns: repeat(auto-fit, 320px);
 }
 
 #project-container img {
@@ -657,7 +656,6 @@ i {
 	border: none;
 	cursor: pointer;
 	color: var(--main-clr);
-}
 
 /********** CONTACT STLYES **********/
 
