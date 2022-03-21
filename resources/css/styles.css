@@ -619,7 +619,7 @@ i {
 	justify-content: center;
 	align-items: start;
 	gap: 30px;
-	grid-template-columns: repeat(2, 320px);
+	grid-template-columns: repeat(autofill, 320px);
 }
 
 #project-container img {
@@ -646,7 +646,6 @@ i {
 .description {
 	background-color: var(--secondary-clr);
 	padding: 5px;
-	width: -webkit-fill-available;
 }
 
 .button {
