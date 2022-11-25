@@ -14,13 +14,13 @@ navLinks.forEach(link => {
 
 // hiding timeline// 
 
-const keydates = ['date-1', 'date-2', 'date-3', 'date-4', 'date-5', 'date-6', 'date-7'];
+const keydates = ['date-0','date-1', 'date-2', 'date-3', 'date-4', 'date-5', 'date-6', 'date-7'];
 let dates = [];
 keydates.forEach(function(keydate){
   dates.push(document.getElementById(keydate));
 })
 
-const keyjobs = ['hide-1', 'hide-2', 'hide-3', 'hide-4', 'hide-5', 'hide-6', 'hide-7'];
+const keyjobs = ['hide-0','hide-1', 'hide-2', 'hide-3', 'hide-4', 'hide-5', 'hide-6', 'hide-7'];
 let jobs = [];
 keyjobs.forEach(function(keyjob){
   jobs.push(document.getElementById(keyjob));
